@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,600&family=Edu+NSW+ACT+Foundation&family=Raleway:wght@300&family=Righteous&family=Roboto:wght@900&family=Shrikhand&family=Ubuntu&display=swap');
+
+#aboutus{
+    margin-right: 5%;
+    margin-left: 3%;
+}
+
+.about{
+    font-size: 150px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.divleft{
+
+
+}
+
+.divright h1{
+    font-size: 20px;
+    width: 50%;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.timeline{
+    position: relative;
+    max-width: 800px;
+    margin: 100px auto;
+}
+.container{
+    padding: 10px 15px;
+    position: relative;
+    width: 45%;
+
+}
+
+.texts{
+    padding: 20px 30px;
+    background: #ffff;
+    position: relative;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.texts h5{
+    color: rgb(99, 97, 97);
+}
+
+.left-container{
+    left: 0;
+}
+
+.right-container{
+    left: 45%;
+}
+
+.container img{
+    position: absolute;
+    width: 65px;
+    border-radius: 50%;
+    right: -20px;
+    top: 32px;
+    z-index: 10;
+}
+
+.right-container img{
+    left: -20px;
+}
+
+
+.timeline::after{
+    position: absolute;
+    content: '';
+    width: 6px;
+    height: 93%;
+    background: #f7570c;
+    top: 5%;
+    left: 50%;
+    margin-left: -25px;
+
+
+}
