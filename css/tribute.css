@@ -1,0 +1,350 @@
+body{
+  height: 100vh;
+  width: 80vw;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  position: absolute;
+  z-index: 1000;
+  background: rgb(203, 186, 132);
+}
+
+  section{
+   background-color:var( --secondary-color); 
+    height: 100vh;
+    width: 100vw;
+    margin-left: 0;
+    color: var(--primary-color);
+    margin: 0;
+    z-index: 9999;
+    padding: 0;
+}
+
+.home{ 
+  background:linear-gradient( rgba(17, 81, 110, 0.5),rgba(99, 4, 4, 0.5));
+  color:white ;
+  padding: 0;
+  display: inline-block;
+  height: auto;
+}
+
+.home h1{
+  text-align: center;
+  font-size: 60px;
+  padding-top: 80px;
+  color: var(--primary-color);
+  text-shadow: 2px 2px #000000;
+}
+
+
+
+.home p{
+  padding-left: 70px;
+  padding-top: 30px;
+  width: 50%;
+  line-height: 30px;
+  font-size: 20px;
+  text-align: justify;
+  float: left;
+  font-weight: 400;
+  color: var(--primary-color);
+  z-index: 1;
+  position: absolute;
+  text-shadow: 2px 2px #000000;
+
+}
+
+.home img{
+  float: right;
+  top: 30px;
+}
+
+
+
+.biography{
+  
+  height: auto;
+  display: inline-block;
+}
+
+.biography img{
+  width: 20%;
+  height: 40%;
+  float: right;
+  margin-right: 80px;
+}
+  
+
+.biography h1{
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  padding-top: 20px;
+  text-decoration: underline;
+  margin-bottom: 50px;
+}
+
+.biography p{
+  padding: 0px 60px;
+  text-align: justify;
+  float: left;
+  width: 50%;
+  letter-spacing: 1px;
+  font-size: 22px;
+
+}
+
+.biography hr{
+  width: 60%;
+  text-align: left;
+  margin-left: 0;
+  border-width: 3px 3px 3px 0;
+  color: rgb(204, 186, 186);
+  border-style:ridge;
+  box-shadow: 0 0 10px 0 black;
+}
+
+.earlylife{
+  display: inline-block;
+  height: auto;
+}
+
+.earlylife img{
+  float: left;
+  margin-left: 120px;
+  width: 20%;
+  height: 30%;
+  border-radius: 10%;
+}
+
+
+.earlylife h2{
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 35px;
+}
+
+.earlylife p{
+  float: right;
+  width: 50%;
+  padding: 0 30px 0 0 ;
+  text-align: justify;
+  font-size: 22px;
+}
+
+.earlylife hr{
+  width: 55%;
+  text-align: right;
+  margin-right: 0;
+  border-width: 3px 0 3px 3px ;
+  color: rgb(204, 186, 186);
+  border-style:ridge;
+  box-shadow: 0 0 10px 0 black;
+}
+
+
+
+.activism{
+  height: auto;
+  display: inline-block;
+}
+
+.activism img{
+  float: right;
+  margin-right: 80px;
+  margin-top: 50px;
+  width: 30%;
+  height: 50%;
+  border-radius: 10%;
+}
+
+.activism h2{
+  text-align: center;
+  margin: 35px;
+}
+
+.activism p{
+  padding-left: 60px;
+  text-align: justify;
+  float: left;
+  width: 50%;
+  font-size: 22px;
+
+}
+
+.activism hr{
+  width: 55%;
+  margin-left: 0;
+  text-align: left;
+  color: gray;
+  border-width: 3px 3px 3px 0;
+  border-style: ridge;
+  height: 0px;
+  box-shadow: 0 0 10px 0 black;
+}
+
+.presidency{
+  
+  display: inline-block;
+  margin: 0;
+  height: auto;
+}
+
+.presidency img{
+  float: left;
+  margin-left: 100px;
+  margin-top: 50px;
+  width: 30%;
+  height: 50%;
+  border-radius: 10%;
+}
+
+.presidency h2{
+  text-align: center;
+  margin: 35px;
+}
+
+.presidency p{
+  padding-right: 30px;
+  text-align: justify;
+  float: right;
+  width: 50%;
+  font-size: 22px;
+
+}
+
+
+
+.presidency hr{
+    width: 53%;
+    text-align: right;
+    margin-right: 0px;
+    border-width: 3px 0 3px 3px ;
+    color: rgb(204, 186, 186);
+    border-style:ridge;
+    box-shadow: 0 0 10px 0 black;
+}
+
+.work{
+
+  display: inline-block;
+  height: auto;
+}
+
+
+.work h2{
+  text-align: center;
+  margin: 35px;
+}
+
+.work img{
+  float: right;
+  margin-right: 90px;
+  margin-bottom: 30px;
+  width: 30%;
+  height: 50%;
+  border-radius: 10%;
+}
+
+.work p{
+  padding-left: 60px;
+  text-align: justify;
+  float: left;
+  width: 45%;
+  font-size: 22px;
+
+}
+
+.work hr{
+    width: 50%;
+    float: left;
+    margin-left: 0;
+    border-width: 3px 3px 3px 0px ;
+    color: rgb(204, 186, 186);
+    border-style:ridge;
+    box-shadow: 0 0 10px 0 black;
+    display: flex;
+}
+
+
+
+
+.legacy{
+
+  display: inline-block;
+  height: auto;
+}
+
+
+.legacy h2{
+  text-align: center;
+  margin: 35px;
+}
+
+.legacy img{
+  float: left;
+  margin-left: 100px;
+  margin-top: 30px;
+  width: 30%;
+  height: 40%;
+  border-radius: 10%;
+}
+
+.legacy p{
+  padding-right: 60px;
+  text-align: justify;
+  float: right;
+  width: 45%;
+  font-size: 22px;
+
+}
+
+.legacy hr{
+    width: 50%;
+    float: right;
+    margin-right: 0;
+    border-width: 3px 3px 3px 0px ;
+    color: rgb(204, 186, 186);
+    border-style:ridge;
+    box-shadow: 0 0 10px 0 black;
+}
+
+
+
+ .achievements{
+  display: inline-block;
+  height: auto;
+  background-image: linear-gradient(rgb(0,0,0,0.5 ), rgb(0,0,0,0.5)),url('../images/nelsonachievements.jpg');
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+  color: white;
+}
+
+.achievements h1{
+  text-decoration: underline;
+  text-align: center;
+  font-size: 35px;
+  padding-top: 60px;
+  color: var(--primary-color);
+  z-index: 1000;
+  text-shadow: 2px 2px #000000;
+}
+
+.achievements h3{
+  text-align: center; 
+  z-index: 1000;
+  text-shadow: 4px 4px #000000;
+}
+
+.achievements ul{
+  text-align: justify;
+  padding: 30px 90px; 
+  font-size: 17px ;
+  font-weight: 700;
+  z-index: 1000;
+  text-shadow: 2px 2px #000000;
+  letter-spacing: 1px;
+}

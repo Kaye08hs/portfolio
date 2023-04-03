@@ -1,0 +1,110 @@
+body{
+    font-size: 14px;
+}
+
+.resume{
+    display: flex;
+    width: 800px;
+    margin: 50px auto;
+    padding: 10px;
+    background: rgb(192, 187, 187);
+    box-shadow: 7px 7px 7px 10px;
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    position: absolute;
+
+}
+
+.text2{
+
+    position: absolute;
+    margin-top: 2in;
+}
+
+.text h2{
+    background-color: rgb(255, 178, 35);
+    border-radius: 8px;
+}
+
+.ref{
+    background-color: rgb(255, 178, 35);
+    border-radius: 8px;  
+}
+
+#progress{
+    background-color: #333;
+    border-radius: 13px;
+    height: 8px;
+    width: 100%;
+    padding: 3px;
+}
+
+#progress::after{
+    content: '';
+    display: block;
+    background-color:orange;
+    border-radius: 9px;
+    height: 8px;
+    width: 100%;
+}
+
+
+#progress1{
+    background-color: #333;
+    border-radius: 13px;
+    height: 8px;
+    width: 100%;
+    padding: 3px;
+}
+
+#progress1::after{
+    content: '';
+    display: block;
+    background-color:orange;
+    border-radius: 9px;
+    height: 8px;
+    width: 80%;
+}
+
+#progress2{
+    background-color: #333;
+    border-radius: 13px;
+    height: 8px;
+    width: 100%;
+    padding: 3px;
+}
+
+#progress2::after{
+    content: '';
+    display: block;
+    background-color:orange;
+    border-radius: 9px;
+    height: 8px;
+    width: 90%;
+}
+
+#progress3{
+    background-color: #333;
+    border-radius: 13px;
+    height: 8px;
+    width: 100%;
+    padding: 3px;
+}
+
+#progress3::after{
+    content: '';
+    display: block;
+    background-color:orange;
+    border-radius: 9px;
+    height: 8px;
+    width: 70%;
+}
+
+.text{
+    margin-left: 5in;
+    display: block;
+}

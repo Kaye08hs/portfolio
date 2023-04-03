@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,600&family=Edu+NSW+ACT+Foundation&family=Raleway:wght@300&family=Righteous&family=Roboto:wght@900&family=Shrikhand&family=Ubuntu&display=swap');
+
+
+
+
+#aboutus{
+    margin-right: 5%;
+    margin-left: 3%;
+}
+
+.about{
+    font-size: 150px;
+    font-family: 'Roboto', sans-serif;
+    color: var(--first-color);
+}
+
+
+
+.divright h1{
+    font-size: 20px;
+    width: 50%;
+    font-family: 'Raleway', sans-serif;
+    color: var(--first-color);
+    text-align: justify;
+    float: left;
+    margin: 15px;
+
+}
+
+.kaye{
+    height: 30%;
+    width: 30%;
+    float: right;
+    right: 30px;
+    top: -250px;
+    position: relative;
+}
+
+.ker{
+    float: right;
+    right: 30px;
+    top: -350px;
+    position: relative;
+    
+}
+
+.timeline{
+    position: relative;
+    max-width: 800px;
+    margin: 100px auto;
+    color: var(--second-color);
+}
+.container{
+    padding: 10px 15px;
+    position: relative;
+    width: 45%;
+
+}
+
+.texts{
+    padding: 20px 30px;
+    /* margin: 10px; */
+    background: var(--fifth-color);
+    position: relative;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.texts h2{
+    color: var(--sixth-color);
+}
+
+.texts small{
+    color: var(--sixth-color);
+
+}
+
+.texts h4{
+    color: var(--sixth-color);
+
+}
+
+.texts h5{
+    color: var(--sixth-color);
+
+
+}
+
+.left-container{
+    left: 0;
+}
+
+.right-container{
+    left: 45%;
+}
+
+.container img{
+    position: absolute;
+    width: 65px;
+    border-radius: 50%;
+    right: -20px;
+    top: 32px;
+    z-index: 10;
+    background-color: white;
+}
+
+.right-container img{
+    left: -20px;
+    color: white;
+}
+
+
+.timeline::after{
+    position: absolute;
+    content: '';
+    width: 6px;
+    height: 93%;
+    background: #f7570c;
+    top: 5%;
+    left: 50%;
+    margin-left: -25px;
+
+
+}
